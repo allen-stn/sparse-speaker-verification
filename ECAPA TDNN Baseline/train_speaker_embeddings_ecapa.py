@@ -1,3 +1,6 @@
+# Baseline training script adapted from the SpeechBrain speaker verification recipe.
+# Modified for thesis experiments and comparison studies
+
 #!/usr/bin/python3
 """Recipe for training speaker embeddings (e.g, xvectors) using the VoxCeleb Dataset.
 We employ an encoder followed by a speaker classifier.
