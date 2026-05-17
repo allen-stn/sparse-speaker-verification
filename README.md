@@ -15,9 +15,9 @@ Sparse speaker verification project comparing baseline, unstructured pruning, an
 sparse-speaker-verification/
 │
 ├── baseline/
-│   ├── train_baseline.py
-│   ├── configs/
-│   │   └── baseline.yaml
+│   ├── train_speaker_embeddings_ecapa.py
+│   ├── hparams/
+│   │   └── train_ecapa_tdnn.yaml
 │   └── results/
 │
 ├── pruning/
@@ -35,6 +35,8 @@ sparse-speaker-verification/
     │   ├── adabreg_70.yaml
     │   └── adabreg_90.yaml
     └── results/
-
+    
+Baseline section
+The baseline system is implemented using the SpeechBrain speaker verification toolkit (adapted from their official recipe). Additional modifications and experiments were added for this thesis.
 
 
