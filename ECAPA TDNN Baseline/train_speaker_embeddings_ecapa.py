@@ -29,20 +29,6 @@ from hyperpyyaml import load_hyperpyyaml
 import speechbrain as sb
 from speechbrain.utils.data_utils import download_file
 from speechbrain.utils.distributed import run_on_main
-# from speechbrain.dataio import audio_io
-# import os
-# os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
-# os.environ["TORCH_SHOW_CPP_STACKTRACES"] = "1"
-
-# def compute_model_sparsity(model):
-#     total = 0
-#     zeros = 0
-#     with torch.no_grad():
-#         for _, p in model.named_parameters():
-#             if p.ndim >= 2:
-#                 total += p.numel()
-#                 zeros += (p == 0).sum().item()
-#     return zeros / max(total, 1)
 
 
 class SpeakerBrain(sb.core.Brain):
