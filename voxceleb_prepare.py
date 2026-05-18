@@ -1,5 +1,5 @@
-
-
+# Baseline training script adapted from the SpeechBrain speaker verification recipe.
+# Modified for thesis experiments and comparison studies
 
 """
 Data preparation.
